@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react'
-import {View, Text, TouchableOpacity, StyleSheet, ViewPropTypes } from 'react-native'
+import {View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import iconDb from './iconDb'
-import PropTypes from 'prop-types'
+import PropTypes, { ImagePropTypes } from 'deprecated-react-native-prop-types'
 
 let defaultIcon = iconDb[8]
 
