@@ -19,7 +19,7 @@ class CheckBox extends PureComponent {
 
     static propTypes = {
         style: ViewPropTypes.style,
-        onChange: PropTypes.func.isRequired,
+        onChange: PropTypes.func,
         checked: PropTypes.bool,
         labelPosition: PropTypes.string,
         labelStyle: Text.propTypes.style,
