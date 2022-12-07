@@ -1,7 +1,7 @@
 import React, {PureComponent} from 'react'
 import {View, Text, TouchableOpacity, StyleSheet } from 'react-native'
 import iconDb from './iconDb'
-import PropTypes, { ViewPropTypes } from 'deprecated-react-native-prop-types'
+import PropTypes, { ViewPropTypes, TextPropTypes } from 'deprecated-react-native-prop-types'
 
 let defaultIcon = iconDb[8]
 
@@ -22,7 +22,7 @@ class CheckBox extends PureComponent {
         onChange: PropTypes.func,
         checked: PropTypes.bool,
         labelPosition: PropTypes.string,
-        labelStyle: Text.propTypes.style,
+        labelStyle: TextPropTypes.style,
         iconName: PropTypes.string,
         iconStyle: ViewPropTypes.style,
         iconSize: PropTypes.number,
